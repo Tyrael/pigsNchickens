@@ -1,0 +1,35 @@
+/*
+ * nitelife.css
+ * 
+ * author: eFBe
+ * Copyright 2011, The Weird Syndicate
+ *
+ * late nite skin
+ *
+ */
+ 
+.nite {
+	background-color: #252527;
+}
+
+.nite p, .nite h1 {
+	color: #EEE;
+}
+
+/* login */
+.nite #LoginContent {
+	background-color: black;
+}
+
+/* lights */
+.nite #Lights {
+	background-position: 0px -37px;
+}
+.nite #Lights > .glow {
+	background: url(../img/sprite_v1.png) no-repeat -44px -37px;
+	display: block;
+	z-index: 1;
+}
+
+
+

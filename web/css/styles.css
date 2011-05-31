@@ -1,0 +1,53 @@
+/*
+ * styles.css
+ * 
+ * author: eFBe
+ * Copyright 2011, The Weird Syndicate
+ *
+ * global styles - TODO: rename
+ *
+ */
+ 
+body {
+	background-color: #F9F9FB; 
+} 
+ 
+p, h1 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+
+/* login */
+#LoginContent {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 600px;
+	height: 300px;
+	margin-left: -300px;
+	margin-top: -150px;
+	
+	background-color: white;
+}
+
+/* lights */
+#Lights {
+	background: url(../img/sprite_v1.png) no-repeat 0px 0px;
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: relative;
+	float: right;
+	outline: none;
+}
+#Lights > .glow {
+	display: none;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
